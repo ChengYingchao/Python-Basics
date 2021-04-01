@@ -1,0 +1,25 @@
+classmates = ['Jim','Aaron','Tim']
+print(classmates)
+len(classmates)
+print('列表(list)classmates的长度是',len(classmates))
+print("列表classmates的第一个元素是：",classmates[0])
+print("列表classmates的第二个元素是：",classmates[1])
+print("列表classmates的第三个元素是：",classmates[2])
+print("列表classmates的倒数第一个元素是：",classmates[-1])
+print("列表classmates的倒数第一个元素是：",classmates[-2])
+print("列表classmates的倒数第一个元素是：",classmates[-3])
+classmates.append('Eric')
+print(classmates)
+classmates.insert(1,'Tom')
+print(classmates)
+classmates.pop()
+print(classmates)
+classmates.pop(0)
+print(classmates)
+classmates[1] = 'Austin'
+print(classmates)
+L = [36,36.23,'我是一个好好先生',True,classmates]
+print(L)
+print('刚刚建立的多数据类型列表list L 有',len(L),'个元素')
+V = []
+print('刚刚新建的列表V里有',len(V),'个元素')
